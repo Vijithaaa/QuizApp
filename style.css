@@ -1,0 +1,74 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    background: #f0a202;
+}
+.container{
+    height: 330px;
+    width: 1000px;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background: #202c59;
+    padding: 20px;
+    border: 1px solid #581f18;
+    box-shadow: 0 0 8px 3px #d95d39;
+
+}
+
+.title{
+    font-size: 36px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #f18805;
+
+}
+
+.question{
+    font-size: 22px;
+    padding: 20px;
+    border-radius: 20px;
+    color: #f6f6f6;
+    background: #f0a202;
+}
+
+.option{
+    width: 470px;
+    display: inline-block;
+    padding: 10px 0 10px 15px;
+    vertical-align:middle;
+    background: #d95d39;
+    margin: 10px 0 10px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.option:hover{
+    background: #f18805;
+    color: #f6f6f6;
+
+}
+
+.nextbutton{
+    border: none;
+    outline: none;
+    background: #d9d9d9;
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    cursor: pointer;
+    float: right;
+    margin: 10px;
+}
+.nextbutton:hover{
+    background: #f18805;
+    color: #f6f6f6;
+}
+
+.result{
+    height: 100px;
+    font-size: 60px;
+    text-align: center;
+    color: #f0a202;
+}
